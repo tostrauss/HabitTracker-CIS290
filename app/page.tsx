@@ -1,9 +1,9 @@
-import HabitTrackerMockups from '@/components/HabitTrackerMockups'
+import HabitTracker from '@/components/HabitTracker'
 
 export default function Home() {
   return (
     <main>
-      <HabitTrackerMockups />
+      <HabitTracker />
     </main>
   )
 }
