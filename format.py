@@ -25,3 +25,8 @@ if match:
 else:
     print(f"Hello, {name}")
 
+matches = re.findall(r"\b\w{4}\b", name)
+if matches:
+    print(f"Found words: {matches}")
+else:
+    print("No words found")
