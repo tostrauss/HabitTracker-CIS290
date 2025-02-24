@@ -1,6 +1,25 @@
 # trening 24/02 TS
 
-import os
+# := operator (walrus operator) - Description: The walrus operator (:=) is a new operator in Python 3.8 that allows you to assign values to variables as part of an expression. It is useful for reducing code duplication and improving readability.
+# Example for := operator: 
+# 
+# import re 
+#
+# def contains_spam(text):
+#     pattern = r"spam"
+#     return bool(match := re.search(pattern, text))
+#
+# def main():
+#     text = "eggspamsausagespam"
+#     if contains_spam(text):
+#         print(f"The word 'spam' was found in '{text}'")
+#     else:
+#         print(f"No occurrence of 'spam' found in '{text}'")
+#
+# if __name__ == "__main__":
+#    main()
+
+
 import sys
 import re
 
@@ -30,3 +49,11 @@ if matches:
     print(f"Found words: {matches}")
 else:
     print("No words found")
+
+
+url = input("Enter a URL: ").strip()
+if not re.match(r"https?://", url):
+    print("Invalid URL")
+    sys.exit(1)
+print(f"URL: {url}")
+
