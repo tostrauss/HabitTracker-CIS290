@@ -424,7 +424,7 @@ export default function HabitTracker() {
 
           <div className="space-y-2">
             <p className="font-medium text-gray-900 dark:text-gray-100">Developed by</p>
-            <p className="text-gray-500">Your Name</p>
+            <p className="text-gray-500">Tobias Strauss</p>
             <p className="text-gray-500">CIS290 - Mobile Application Development</p>
             <p className="text-gray-500">Post University</p>
           </div>
